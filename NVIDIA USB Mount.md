@@ -22,3 +22,8 @@ cp /mnt/usb/NVIDIA-Linux-x86_64-570.144.run ~/
 ```
 sudo umount /mnt/usb
 ```
+
+## ※ 우분투 드라이버 호환 버전 확인 
+```
+ubunut-drivers devices
+```
