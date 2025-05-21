@@ -85,6 +85,9 @@ nvcc -V
 - **기본 ID**: admin
 - **기본 암호**: qwe123123
 
+## Ubuntu Old version 
+[https://old-releases.ubuntu.com/releases/]
+
 ## CUDA 버전 참고사항
 
 CUDA 버전 선택 시 참고할 수 있는 공식 문서:
