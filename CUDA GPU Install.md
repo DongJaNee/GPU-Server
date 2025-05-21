@@ -11,10 +11,19 @@ sudo apt install build-essential
 # gcc 버전 확인 
 gcc --version
 
+# Nouveau 드라이버 비활성화 
+echo -e "blacklist nouveau\noptions nouveau modeset=0" | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
+
+# initramfs 업데이트 
+sudo update-initramfs -u
+
+# 재부팅(업데이트 적용)
+reboot
+
 # Driver 설치  (ex 535버전)
 sudo apt install nvidia-driver-535
 
-# 재부팅
+# 재부팅 (driver가 바로 안올라왔을 경우) 
 reboot 
 
 # 드라이버 설치 확인 
