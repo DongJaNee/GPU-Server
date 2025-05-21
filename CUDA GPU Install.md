@@ -70,7 +70,14 @@ nvcc -V
 
 ![image](https://github.com/user-attachments/assets/66313262-b66a-4260-832f-ce5d5aae5dae)
 
+```
+# log 값 확인
+./var/log ls-ai
 
+# GPU 온도체크
+./gpu_burn
+
+```
 ## KTNF Server BMC 연결 방법
 
 ### IPMI 포트 연결
